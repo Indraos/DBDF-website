@@ -14,9 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
   <body>
-
       <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h1><img src="./assets/images/logo.png" height=35 width=35>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
 
@@ -37,7 +36,6 @@
       </nav>
       <section>
         {{ content }}
-
       </section>
       <footer>
           <p>Alle Materialien stehen unter einer <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License</a></p>
